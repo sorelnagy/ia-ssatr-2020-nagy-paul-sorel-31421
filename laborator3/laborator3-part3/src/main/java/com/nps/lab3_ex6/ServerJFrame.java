@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.lab3_ex6;
+package com.nps.lab3_ex6;
 
 public class ServerJFrame extends javax.swing.JFrame {
 

@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.lab3_ex6;
+package com.nps.lab3_ex6;
 
 import java.io.BufferedReader;
 import java.io.IOException;

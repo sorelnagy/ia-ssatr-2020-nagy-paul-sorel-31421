@@ -1,4 +1,4 @@
-package com.mycompany.lab3_ex6;
+package com.nps.lab3_ex6;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -63,7 +63,7 @@ public class Server {
        
     String getAllCarsDetails(){
        String all = "";
-       for(CarAccess ca: list){ 
+        for(CarAccess ca: list){ 
            if(ca!=null){
              
             SimpleDateFormat sdf = new SimpleDateFormat("MMM-dd-yyyy HH:mm");
@@ -112,12 +112,12 @@ public class Server {
         System.out.println(x);
         Thread.sleep(2000);
         
-        s.list.add(new CarAccess("AB-01-ABC", System.currentTimeMillis()));
+         s.list.add(new CarAccess("AB-01-ABC", System.currentTimeMillis()));
         x = s.handlePlateNumberRequest("AB-01-AAA");
         System.out.println(x);
         Thread.sleep(2000);
         
-        s.list.add(new CarAccess("AB-01-BBB", System.currentTimeMillis()));
+         s.list.add(new CarAccess("AB-01-BBB", System.currentTimeMillis()));
         x = s.handlePlateNumberRequest("AB-01-AAA");
         System.out.println(x);
         Thread.sleep(2000);

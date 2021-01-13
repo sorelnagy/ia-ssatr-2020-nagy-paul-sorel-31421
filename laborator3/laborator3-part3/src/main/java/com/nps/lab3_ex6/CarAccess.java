@@ -4,17 +4,13 @@
  * and open the template in the editor.
  */
 
-package com.mycompany.lab3_ex6;
+package com.nps.lab3_ex6;
 
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author CORI
- */
 public class CarAccess {
     private String plateNumber;
     private long accessTime; 

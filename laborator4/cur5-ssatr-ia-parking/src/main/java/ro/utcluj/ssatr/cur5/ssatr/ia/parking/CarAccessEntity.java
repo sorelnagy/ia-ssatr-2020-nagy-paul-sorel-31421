@@ -17,7 +17,7 @@ public class CarAccessEntity {
         this.plateNumber = plateNumber;
         this.entryTime = entryTime;
     }
-
+ 
     public String getPlateNumber() {
         return plateNumber;
     }
