@@ -1,1 +1,0 @@
-# ia-ssatr-2020-nagy-paul-sorel-31461
