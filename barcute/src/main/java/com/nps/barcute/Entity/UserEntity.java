@@ -92,13 +92,13 @@ public class UserEntity {
     return rs.next();
   }
 
-  public void getByUsername() {
+    public void getByUsername() {
 
     try {
       getuserIdByUsernameQuery();
     } catch(Exception e) {
 
-}
+    }
 
   }
 

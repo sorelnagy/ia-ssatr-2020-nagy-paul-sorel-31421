@@ -448,14 +448,19 @@ public class UIClient {
   }
 
   public static void startGame(int pin1, int pin2) {
-
-    // refactorProjectionMatrix();
     userPanel.setVisible(false);
     userDashboard.setVisible(false);
-
+    
     createOponentBoardPanel(pin2);
-
     createOwnBoardPanel();
+
+     Runnable projectionMapTask = new Runnable() {@Override
+      public void run() {
+        refactorProjectionMatrix();
+      }
+    };
+    Thread projectionMapThread = new Thread(projectionMapTask);
+    projectionMapThread.start();
 
     isGameInit = 1;
   }
